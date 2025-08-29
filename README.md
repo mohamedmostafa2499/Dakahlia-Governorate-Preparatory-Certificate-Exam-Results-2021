@@ -3,7 +3,7 @@ Read the PowePoint in zip
 
  Dakahlia Governorate Exam Results Dashboard  
 
-This project provides an interactive analysis of the **Preparatory Certificate Exam Results** for **Dakahlia Governorate** using SQL and Power BI.  
+This project provides an interactive analysis of the Preparatory Certificate Exam Results for Dakahlia Governorate using SQL and Power BI.  
 
 Key Features  
 - Treemap: Shows all education departments with the number of schools in each department.  
@@ -23,7 +23,8 @@ Key Features
   - Fully interactive with filters: selecting a department shows all schools in that department with student details; selecting a school shows all student details for that school.  
 
   Tools & Technologies  
-- SQL Server → Data cleaning, transformation, and calculations (e.g., subject full marks, student percentages, total marks).  
+- SQL Server → Data cleaning, transformation, and calculations (e.g., subject full marks, student percentages, total marks).
+- SSIS (SQL Server Integration Services) → ETL process (loading and transforming Excel data into SQL Server).
 - Power BI → Dashboard creation, visualizations, and interactivity.  
 - Excel → Source data (raw results).  
 
@@ -34,4 +35,3 @@ The dashboard helps in:
 - Identifying top-performing and underperforming schools.  
 - Providing detailed insights for better decision-making in the education sector.  
 
----
